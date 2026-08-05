@@ -1,5 +1,5 @@
 from django.shortcuts import render , redirect
-from django.contrib.auth.forms import UserCreationForm # remove this line because no needed we create it own file called forms.py which have the extar fileds email also because djnago dosenprovide the email filed
+#from django.contrib.auth.forms import UserCreationForm # remove this line because no needed we create it own file called forms.py which have the extar fileds email also because djnago dosenprovide the email filed
 from django.contrib import messages
 from .forms import UsersRegisterForm
 
